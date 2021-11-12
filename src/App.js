@@ -1,10 +1,13 @@
 import './App.css';
-import { Card1, Card2, Card3 } from './components';
+import { Card1, Card2, Card3, Header } from './components';
 import { colors } from './random';
 
 function App() {
   return (
     <div style={div}>
+      <Header />
+      <br />
+      <br />
       <Card3 />
       <Card2 />
       <Card1 />
@@ -14,5 +17,5 @@ function App() {
 
 export default App;
 const div = {
-  backgroundColor: colors.background.secondary
+  backgroundColor: colors.background.primary
 }

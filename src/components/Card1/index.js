@@ -1,18 +1,22 @@
 import React from 'react';
-import { Container, Button, Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { colors } from '../../random';
 
 const Card1 = () => {
     return (
         <div style={div}>
             <Card style={card}>
-                <Card.Body>
+                <Card.Body data-aos="fade-up" data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false">
                     <Card.Title style={title}>Bangun kesuksesanmu bersama xpadam</Card.Title>
                     <Card.Text><p style={text}>Membuat website dengan mudah, mulai diskusikan</p></Card.Text>
-                    <Button style={btn}>Mulai</Button>
+                    <Button style={btn} href='https://wa.me/6285155053003?text=Hallo%20saya%20mau%20buat%20website%20'>Mulai</Button>
                 </Card.Body>
             </Card>
-
         </div>
     )
 }

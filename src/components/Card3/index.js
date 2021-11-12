@@ -9,7 +9,7 @@ import PeopleLottie from '../PeopleLottie';
 const Card3 = () => {
     return (
         <div>
-            <Card style={card}>
+            <Card style={card} id='home'>
                 <div>
                     <Container style={container}>
                         <Row xs={1} md={2}>

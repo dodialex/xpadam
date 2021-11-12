@@ -4,5 +4,6 @@ import Card3 from './Card3';
 import CheckLottie from './CheckLottie';
 import Title from './Title';
 import PeopleLottie from './PeopleLottie';
+import Header from './Header';
 
-export { Card1, Card2, Card3, CheckLottie, Title, PeopleLottie };
+export { Card1, Card2, Card3, CheckLottie, Title, PeopleLottie, Header };

@@ -2,26 +2,49 @@ import React from 'react'
 import { Col, Card, Row, Container } from 'react-bootstrap';
 import { colors } from '../../random';
 
+
+
 const Card2 = () => {
     return (
         <div style={div}>
             <Container fluid style={container}>
                 <p style={textP}>Pilihan Template</p>
                 <Container >
-                    <Row style={row}>
-                        <Col >
+                    <Row style={row} >
+                        <Col data-aos="flip-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                            data-aos-anchor-placement="top-bottom">
                             <p style={textP1}>Design A</p>
                             <Card style={card}>
                                 <Card.Img src="" />
                             </Card>
                         </Col>
-                        <Col>
+                        <Col data-aos="flip-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                            data-aos-anchor-placement="top-center">
                             <p style={textP1}>Design B</p>
                             <Card style={card}>
                                 <Card.Img src="" />
                             </Card>
                         </Col>
-                        <Col>
+                        <Col data-aos="flip-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                            data-aos-anchor-placement="top-center">
                             <p style={textP1}>Design C</p>
                             <Card style={card}>
                                 <Card.Img src="" />
