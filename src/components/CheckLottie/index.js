@@ -8,7 +8,7 @@ const CheckLottie = () => {
             <lottie-player
                 autoplay
                 loop
-                src="https://assets7.lottiefiles.com/packages/lf20_22g9fjkw.json"
+                src="https://assets1.lottiefiles.com/packages/lf20_mm5m9lvn.json"
                 style={lottie}
             >
             </lottie-player>

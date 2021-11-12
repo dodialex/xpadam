@@ -57,7 +57,9 @@ const Card3 = () => {
 
                             <Col>
                                 <div style={listCheck}>
-                                    <CheckLottie />
+                                    <div style={listCheck1}>
+                                        <CheckLottie />
+                                    </div>
                                     <p style={listText}>Tersedia Template atau Rancang Sendiri</p>
                                 </div>
                             </Col>
@@ -88,7 +90,7 @@ const textPp = {
     fontFamily: 'Poppins',
     fontSize: '70px',
     fontWeight: '700',
-    color: colors.text.secondary,
+    color: colors.text.primary,
 }
 
 const textTitle = {
@@ -96,7 +98,7 @@ const textTitle = {
     fontWeight: '700',
     fontSize: '30px',
     width: '70%',
-    color: colors.text.secondary,
+    color: colors.text.primary,
     marginBottom: '30px',
     textAlign: 'center'
 }
@@ -104,8 +106,9 @@ const textP = {
     fontFamily: 'Poppins',
     fontSize: '15px',
     width: '390px',
-    color: colors.text.secondary,
-    marginBottom: '30px'
+    color: colors.text.primary,
+    marginBottom: '30px',
+    textAlign: 'center'
 }
 const containerList = {
     marginBottom: '30px'
@@ -114,7 +117,7 @@ const listText = {
     fontFamily: 'Poppins',
     fontWeight: '500',
     fontSize: '15px',
-    color: colors.text.secondary,
+    color: colors.text.primary,
     textAlign: 'left'
 }
 const listCheck = {
@@ -122,9 +125,12 @@ const listCheck = {
     alignItems: 'center',
     display: 'flex',
 }
+const listCheck1 = {
+    marginTop: '-20px'
+}
 const card = {
     width: '100%',
-    backgroundColor: colors.text.primary,
+    backgroundColor: colors.background.primary,
     borderWidth: '0px',
     borderBottomLeftRadius: '100px',
     borderBottomRightRadius: '100px',

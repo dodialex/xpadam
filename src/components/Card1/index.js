@@ -20,14 +20,14 @@ const Card1 = () => {
 export default Card1;
 const btn = {
     backgroundColor: colors.background.primary,
-    color: colors.text.secondary,
+    color: colors.text.primary,
     fontFamily: 'Poppins',
     fontWeight: '400',
-    borderWidth: '3px',
     borderRadius: '10px',
     width: '150px',
-    borderColor: colors.borderColor.secondary,
+    borderColor: colors.borderColor.primary,
     marginBottom: '30px',
+    boxShadow: colors.btnShadow.primary
 }
 const text = {
     fontFamily: 'Poppins',
@@ -35,7 +35,7 @@ const text = {
     fontSize: '15px',
     width: '70%',
     marginLeft: '15%',
-    color: colors.text.secondary,
+    color: colors.text.primary,
     paddingTop: '25px',
     paddingBottom: '25px',
     textAlign: 'center'
@@ -46,12 +46,12 @@ const title = {
     fontSize: '30px',
     width: '80%',
     marginLeft: '10%',
-    color: colors.text.secondary,
+    color: colors.text.primary,
     textAlign: 'center'
 }
 const card = {
     width: '100%',
-    backgroundColor: colors.text.primary,
+    backgroundColor: colors.background.primary,
     borderWidth: '0px',
     borderBottomLeftRadius: '100px',
     borderBottomRightRadius: '100px',

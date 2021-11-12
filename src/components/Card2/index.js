@@ -37,7 +37,7 @@ const Card2 = () => {
 export default Card2;
 const div = {
     backgroundColor: colors.background.primary,
-    marginTop: '-10px'
+
 }
 const container = {
     backgroundColor: colors.background.secondary,
@@ -47,9 +47,8 @@ const container = {
     borderBottomRightRadius: '100px',
     borderTopRightRadius: '0px',
     borderTopLeftRadius: '0px',
-    marginTop: '10px'
+    paddingBottom: '30px',
 }
-
 const textP = {
     textAlign: 'center',
     fontFamily: 'Poppins',
